@@ -5,7 +5,7 @@ export default class Board {
 
     columns: Column[];
 
-    constructor(readonly name: string) {
+    constructor(public idBoard: number, readonly name: string) {
         this.columns = [];    
     }
 
